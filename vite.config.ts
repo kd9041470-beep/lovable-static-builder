@@ -5,6 +5,11 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // مهم: عدّل هذا لو غيّرت اسم الريبو أو تريد مسارات نسبية
+  base: "/lovable-static-builder/",
+  build: {
+    outDir: "dist",
+  },
   server: {
     host: "::",
     port: 8080,
