@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // مهم: غيّر اسم الريبو إن لم يكن lovable-static-builder
+  // غيّر هذا إن غيّرت اسم الريبو
   base: "/lovable-static-builder/",
   build: {
     outDir: "dist",
@@ -21,3 +21,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
